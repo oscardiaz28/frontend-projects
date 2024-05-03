@@ -1332,15 +1332,41 @@ ul {
   font-size: 1.5rem;
 }
 
+.auth .nav {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  background-color: white;
+  padding: 1rem 3rem;
+  gap: 1rem;
+}
+@media screen and (min-width: 576px) {
+  .auth .nav {
+    flex-direction: row;
+  }
+}
+.auth img.logo {
+  width: 14rem;
+  display: block;
+}
+.auth .nav_links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+}
+.auth .nav_links a {
+  display: inline-block;
+  padding: 0rem 1rem;
+}
+
 .login {
   padding: 2rem;
   width: 100%;
-  min-height: 100vh;
   display: flex;
   justify-content: center;
   align-items: start;
   padding-top: 5rem;
-  background-color: #ebeeef;
 }
 .login .box {
   width: 530px;
@@ -1435,6 +1461,7 @@ ul {
   border: none;
   outline: none;
   background-color: rgba(87, 184, 70, 0.8941176471);
+  background: linear-gradient(to right, #FFA858, #eeb179, #e1a974, #72bbd4, #2CBEEF);
   font-family: inherit;
   color: white;
   font-size: 1.5rem;
