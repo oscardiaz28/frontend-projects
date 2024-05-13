@@ -33,9 +33,7 @@
         elem.classList.add("active");
     }
 
-
-   
-
+    
 
 
 })()
