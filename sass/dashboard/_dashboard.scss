@@ -29,7 +29,9 @@
             background-color: white;
             border-radius: 1rem;
             padding: 2rem 2.5rem;
-            box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.04);
+            background-color: #202528;
+            box-shadow: 0 2rem 3rem rgba(0, 0, 0, 0.4);
+            color: white;
             display: flex;
             align-items: center;
             justify-content: space-between;
@@ -39,7 +41,6 @@
             border: 1px solid rgba(198, 211, 224, 0.184);
             transition: all .2s linear;
 
-    
 
             &:hover{
                 box-shadow: unset;
@@ -112,12 +113,12 @@
                 font-size: 1.4rem;
                 font-weight: 500;
                 margin-bottom: .1rem;
-                color: #333;
+                color: white;
             }
             h4{
                 font-size: 2.45rem;
                 font-weight: 700;
-                color: #333;
+                color: white;
             }
         }
 
